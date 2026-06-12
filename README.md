@@ -188,3 +188,7 @@ The application is deployed using:
 - Backend: Render
 - Database: MongoDB Atlas
 - File Storage: Cloudinary
+
+## Deployed Link
+
+Link - https://great-notes-steel.vercel.app/
