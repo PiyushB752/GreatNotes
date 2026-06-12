@@ -1,0 +1,90 @@
+.summary-form {
+  background-color: #ffffff;
+  padding: 20px; 
+  border: 1px solid #e5e7eb;
+  border-radius: 12px; 
+}
+
+.summary-textarea {
+  width: 100%;
+  padding: 12px; 
+  border: 1px solid #d1d5db;
+  border-radius: 8px; 
+  resize: vertical;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.summary-textarea:focus {
+  border-color: #000000;
+}
+
+.generate-summary-btn {
+  margin-top: 16px;
+  padding: 8px 20px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px; 
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.generate-summary-btn:hover {
+  opacity: 0.9;
+}
+
+.summary-preview {
+  margin-top: 20px;
+  padding: 16px; 
+  background-color: #f9fafb;
+  border-radius: 8px; 
+  line-height: 1.6;
+}
+
+.save-summary-btn {
+  margin-top: 16px;
+  padding: 8px 20px; 
+  background-color: #16a34a; 
+  color: #ffffff;
+  border: none;
+  border-radius: 8px; 
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.save-summary-btn:hover {
+  opacity: 0.9;
+}
+
+.summary-preview h1, .summary-preview h2, .summary-preview h3, .summary-preview h4, .summary-preview h5, .summary-preview h6 {
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.summary-preview p {
+  margin-bottom: 16px;
+}
+
+.summary-preview ul, .summary-preview ol {
+  padding-left: 24px;
+  margin-bottom: 16px;
+}
+
+.summary-preview li {
+  margin-bottom: 4px;
+}
+
+.summary-preview code {
+  background-color: #f3f4f6;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.summary-preview pre {
+  background-color: #f3f4f6;
+  padding: 16px;
+  overflow-x: auto;
+  border-radius: 8px;
+}

@@ -1,0 +1,21 @@
+.add-block-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem; 
+}
+
+.block-button {
+  padding: 0.5rem 1rem; 
+  font-size: 0.875rem; 
+  font-weight: 500;
+  background-color: #f3f4f6; 
+  border: none;
+  border-radius: 9999px; 
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.block-button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}

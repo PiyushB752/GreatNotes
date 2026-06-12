@@ -1,0 +1,49 @@
+.image-block-form {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.image-block-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 16px 0;
+}
+
+.image-file-input {
+  width: 100%;
+}
+
+.image-button-group {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.image-save-btn {
+  padding: 8px 16px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.image-save-btn:hover {
+  opacity: 0.9;
+}
+
+.image-cancel-btn {
+  padding: 8px 16px;
+  background-color: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.image-cancel-btn:hover {
+  background-color: #f3f4f6;
+}

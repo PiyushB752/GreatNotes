@@ -1,0 +1,75 @@
+.definition-block-form {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.definition-block-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 16px 0;
+}
+
+.definition-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 14px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.definition-input:focus {
+  border-color: #000000;
+}
+
+.definition-textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 14px;
+  resize: vertical;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.definition-textarea:focus {
+  border-color: #000000;
+}
+
+.definition-button-group {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.definition-save-btn {
+  padding: 8px 16px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.definition-save-btn:hover {
+  opacity: 0.9;
+}
+
+.definition-cancel-btn {
+  padding: 8px 16px;
+  background-color: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.definition-cancel-btn:hover {
+  background-color: #f3f4f6;
+}

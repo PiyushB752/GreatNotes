@@ -1,0 +1,145 @@
+.todo-container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.todo-header {
+  margin-bottom: 40px;
+}
+
+.todo-title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.todo-subtitle {
+  color: #6b7280;
+}
+
+.todo-form {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.todo-input {
+  flex: 1;
+  padding: 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  font-size: 14px;
+  outline: none;
+}
+
+.todo-input:focus {
+  border-color: #000000;
+}
+
+.todo-add-btn {
+  padding: 16px 24px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.todo-add-btn:hover {
+  opacity: 0.9;
+}
+
+.todo-filters {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.todo-filter-btn {
+  padding: 8px 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.todo-filter-active {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.todo-card {
+  background-color: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-task {
+  font-size: 18px;
+}
+
+.todo-pending {
+  font-weight: 500;
+}
+
+.todo-completed {
+  text-decoration: line-through;
+  color: #9ca3af;
+}
+
+.todo-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.todo-complete-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 12px;
+  background-color: #f3f4f6;
+  cursor: pointer;
+}
+
+.todo-complete-active {
+  background-color: #dcfce7;
+  color: #15803d;
+}
+
+.todo-delete-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 12px;
+  background-color: #fee2e2;
+  color: #dc2626;
+  cursor: pointer;
+}
+
+.todo-empty {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.todo-empty-icon {
+  font-size: 60px;
+  margin-bottom: 16px;
+}
+
+.todo-empty-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.todo-empty-text {
+  color: #6b7280;
+}

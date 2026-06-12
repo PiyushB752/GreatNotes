@@ -1,0 +1,59 @@
+.youtube-block-form {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.youtube-block-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 16px 0;
+}
+
+.youtube-block-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 14px;
+  outline: none;
+}
+
+.youtube-block-input:focus {
+  border-color: #000000;
+}
+
+.youtube-button-group {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.youtube-save-btn {
+  padding: 8px 16px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.youtube-save-btn:hover {
+  opacity: 0.9;
+}
+
+.youtube-cancel-btn {
+  padding: 8px 16px;
+  background-color: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.youtube-cancel-btn:hover {
+  background-color: #f3f4f6;
+}

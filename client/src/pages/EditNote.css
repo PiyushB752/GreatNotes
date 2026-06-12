@@ -1,0 +1,105 @@
+.edit-note-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 384px;
+}
+
+.edit-note-container {
+  max-width: 896px;
+  margin: 0 auto;
+}
+
+.edit-note-header {
+  margin-bottom: 40px;
+}
+
+.edit-note-title {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+}
+
+.edit-note-subtitle {
+  color: #6b7280;
+  margin: 0;
+}
+
+.edit-note-form {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.edit-note-label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #6b7280;
+  margin-bottom: 12px;
+}
+
+.edit-note-input {
+  width: 100%;
+  padding: 16px;
+  font-size: 20px;
+  font-weight: 600;
+  border: 1px solid #d1d5db;
+  border-radius: 16px;
+  box-sizing: border-box;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.edit-note-input:focus {
+  border-color: #000000;
+  box-shadow: 0 0 0 2px #000000;
+}
+
+.edit-note-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  color: #6b7280;
+}
+
+.edit-note-meta-label {
+  font-weight: 500;
+}
+
+.edit-note-actions {
+  display: flex;
+  gap: 16px;
+}
+
+.edit-note-cancel-btn {
+  padding: 12px 24px;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.edit-note-cancel-btn:hover {
+  background-color: #f9fafb;
+}
+
+.edit-note-save-btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 12px;
+  background-color: #000000;
+  color: #ffffff;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.edit-note-save-btn:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+.edit-note-save-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
